@@ -1,4 +1,4 @@
-package org.example.entidades;
+package org.example.entidades.Caso_3;
 
 import lombok.Getter;
 import lombok.ToString;
@@ -8,17 +8,16 @@ import java.util.Objects;
 @Getter
 @ToString
 
-public class Producto {
-    private String nombre;
-    private ProductoCategoria categoria;
+public class Libro {
+    private String titulo;
+    private String autor;
+    private int paginas;
     private int precio;
-    private int stock;
-
-    public Producto(String nombre, ProductoCategoria categoria, int precio, int stock){
-        this.nombre = Objects.requireNonNull(nombre, "El nombre no puede ser nulo.");
-        this.categoria = categoria;
+    public Libro(String titulo, String autor, int paginas, int precio){
+        this.titulo = Objects.requireNonNull(titulo, "El nombre no puede ser nulo.");
+        this.autor = Objects.requireNonNull(autor, "El nombre no puede ser nulo.");
+        this.paginas = validarCantidad(paginas);
         this.precio = validarCantidad(precio);
-        this.stock = validarCantidad(stock);
     }
 
     private int validarCantidad(int number){

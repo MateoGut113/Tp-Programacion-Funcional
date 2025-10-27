@@ -1,4 +1,5 @@
-package org.example.entidades;
+package org.example.entidades.Caso_4;
+
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -7,18 +8,18 @@ import lombok.ToString;
 @Getter
 @RequiredArgsConstructor
 
-public enum ProductoCategoria {
-    ESCOLAR("Escolar"),
-    LIMPIEZA("Limpieza"),
-    ELECTRODOMESTICO("Electrodoméstico"),
-    EQUIPO_ELECTRONICO("Equipo Electrónico");
+public enum Departamento {
+    RECURSOS_HUMANOS("Recursos Humanos"),
+    LOGISTICA("Logistica"),
+    FINANZAS("Finanzas"),
+    VENTAS("Ventas");
 
     @ToString.Include
     private final String descripcion;
 
     @Override
     public String toString() {
-        return "Categoria{" +
+        return "Departamento{" +
                 "nombre=" + descripcion +
                 '}';
     }

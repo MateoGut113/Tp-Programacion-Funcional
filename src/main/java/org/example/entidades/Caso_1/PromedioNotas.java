@@ -1,4 +1,4 @@
-package org.example.entidades;
+package org.example.entidades.Caso_1;
 
 @FunctionalInterface
 public interface PromedioNotas {

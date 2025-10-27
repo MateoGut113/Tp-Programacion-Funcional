@@ -1,4 +1,4 @@
-package org.example.entidades;
+package org.example.entidades.Caso_1;
 
 import lombok.Getter;
 import lombok.ToString;

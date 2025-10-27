@@ -1,6 +1,9 @@
 package org.example;
 
-import org.example.entidades.*;
+import org.example.entidades.Caso_1.*;
+import org.example.entidades.Caso_2.*;
+import org.example.entidades.Caso_3.*;
+import org.example.entidades.Caso_4.*;
 
 import java.util.*;
 import java.util.stream.Collectors;
