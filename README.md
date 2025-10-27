@@ -59,14 +59,22 @@ Contiene a la clase `Empleado` y a la clase enumerada `Departamento`.
 
 ### 🔍 Enumeraciones del Sistema a utilizar
 
-- Curso con:
+- `Curso` con:
 
-DESARROLLO_DE_SOFTWARE, FISICA_II, INGLES_I
+DESARROLLO_DE_SOFTWARE,\
+FISICA_II,\
+INGLES_I
 
-- ProductoCategoria con:
+- `ProductoCategoria` con:
 
-ESCOLAR, LIMPIEZA, ELECTRODOMESTICO, EQUIPO_ELECTRONICO
+ESCOLAR,\
+LIMPIEZA,\
+ELECTRODOMESTICO,\
+EQUIPO_ELECTRONICO
 
-- Departamento con:
+- `Departamento` con:
 
-RECURSOS_HUMANOS, LOGISTICA, FINANZAS, VENTAS
+RECURSOS_HUMANOS,\
+LOGISTICA,\
+FINANZAS,\
+VENTAS

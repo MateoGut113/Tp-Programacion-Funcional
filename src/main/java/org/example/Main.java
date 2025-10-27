@@ -8,6 +8,7 @@ import org.example.entidades.Caso_4.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("===Probamos: Caso Práctico 1.===");
@@ -191,9 +192,9 @@ public class Main {
 
 
         System.out.println("\n=>Ejercicio 3:");
-        Map<Departamento, Integer> salarioPorDepartamento = empleados.stream()
+        Map<Departamento, Double> salarioPorDepartamento = empleados.stream()
                 .collect(Collectors.groupingBy(Empleado::getDepartamento,
-                        Collectors.summingInt(Empleado::getSalario)
+                        Collectors.summingDouble(Empleado::getSalario)
                 ));
         System.out.println("Cálculo de salario total por departamento:\n "+salarioPorDepartamento);
 
@@ -206,6 +207,6 @@ public class Main {
 
         System.out.println("Los 2 empleados mas jovenes son: \n");
         empleadosMasJovenes.forEach(e ->
-                System.out.println(e.getNombre() + " - Edad: " +e.getEdad()));
+                System.out.println(e.getNombre() + " - Edad: " + e.getEdad()));
     }
 }
