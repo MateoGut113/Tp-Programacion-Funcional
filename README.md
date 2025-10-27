@@ -7,8 +7,8 @@ colecciones de forma declarativa.
 
 ### ✅ Requisitos
 
-- Java 8 o superior
-- IDE compatible con Maven o Gradle (opcional)
+- Java 16 o superior (se utiliza `Stream.toList()` y `List.of(...)`)
+- IDE compatible con Gradle
 
 ## 📝 Uso del Sistema
 
@@ -83,3 +83,9 @@ RECURSOS_HUMANOS,\
 LOGISTICA,\
 FINANZAS,\
 VENTAS
+
+### 🧠 Observaciones
+
+- Se utiliza `List.of(...)` y `.toList()`, por lo que es necesario Java 16 o superior.
+- Las listas son inmutables y los resultados se imprimen directamente en consola.
+- El código está organizado por bloques temáticos, separados por caso práctico.
