@@ -5,6 +5,11 @@
 Practicar operaciones intermedias y terminales de los Streams en Java para procesar
 colecciones de forma declarativa.
 
+### ✅ Requisitos
+
+- Java 8 o superior
+- IDE compatible con Maven o Gradle (opcional)
+
 ## 📝 Uso del Sistema
 
 ### 1. Caso Práctico
